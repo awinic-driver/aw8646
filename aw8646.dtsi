@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: GPL-2.0
+/ {
+	aw8646_step {
+		compatible = "awinic,aw8646_step";
+		nen-gpio = <&pio 49 0>;
+		dir-gpio = <&pio 50 0>;
+		step-gpio = <&pio 51 0>;
+		nsleep-gpio = <&pio 52 0>;
+	};
+};
